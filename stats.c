@@ -1,10 +1,10 @@
 #include "stats.h"
 Stats Stats_s;
 Stats compute_statistics(const float* numberset, int setlength) {
-
-    Stats_s.average = 4.525;
-    Stats_s.min = 8.9;
-    Stats_s.max = 1.5;
+numberset_a[] = numberset;
+    Stats_s.average = numberset[3];
+    Stats_s.min = numberset[1];
+    Stats_s.max = numberset[0];
 }
 
 int emailAlertCallCount = 0;
