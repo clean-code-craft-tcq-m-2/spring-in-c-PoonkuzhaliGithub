@@ -1,6 +1,6 @@
 #include "stats.h"
 
-Stats_s compute_statistics(const float* numberset, int setlength) 
+Stats compute_statistics(const float* numberset, int setlength) 
 {
     numberset[4];
     Stats_s.average = numberset[3];
