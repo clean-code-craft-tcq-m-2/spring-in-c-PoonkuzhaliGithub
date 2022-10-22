@@ -1,11 +1,11 @@
 #include "stats.h"
 
-Stats compute_statistics(const float* numberset, int setlength) 
-{
-    numberset[4];
-    Stats_s.average = numberset[3];
-    Stats_s.min = numberset[1];
-    Stats_s.max = numberset[0];
+Stats compute_statistics(const float* numberset, int setlength) {
+    struct Stats s;
+    s.average = 0;
+    s.min = 0;
+    s.max = 0;
+    return s;
 }
 //int emailAlertCallCount = 0;
 //int ledAlertCallCount = 0;
